@@ -1,7 +1,6 @@
 # wakatime-copilot-cli
 
 [![npm version](https://img.shields.io/npm/v/@zorfling/wakatime-copilot-cli.svg)](https://www.npmjs.com/package/@zorfling/wakatime-copilot-cli)
-[![npm downloads](https://img.shields.io/npm/dm/@zorfling/wakatime-copilot-cli.svg)](https://www.npmjs.com/package/@zorfling/wakatime-copilot-cli)
 [![license](https://img.shields.io/npm/l/@zorfling/wakatime-copilot-cli.svg)](#license)
 
 WakaTime integration for [GitHub Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli) — automatically tracks your AI coding time with proper attribution.
