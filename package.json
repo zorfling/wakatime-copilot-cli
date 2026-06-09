@@ -1,5 +1,8 @@
 {
-  "name": "wakatime-copilot-cli",
+  "name": "@zorfling/wakatime-copilot-cli",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "1.0.0",
   "description": "WakaTime integration for GitHub Copilot CLI — proper AI coding attribution, no virtual files, auto-installs wakatime-cli",
   "type": "module",

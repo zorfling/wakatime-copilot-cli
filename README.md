@@ -15,7 +15,7 @@ WakaTime integration for [GitHub Copilot CLI](https://docs.github.com/en/copilot
 ## Quick start
 
 ```sh
-npm install -g wakatime-copilot-cli
+npm install -g @zorfling/wakatime-copilot-cli
 wakatime-copilot-cli setup
 ```
 
@@ -29,7 +29,7 @@ That's it. All future Copilot CLI sessions across every project will be tracked.
 ## Manual install
 
 ```sh
-npm install -g wakatime-copilot-cli
+npm install -g @zorfling/wakatime-copilot-cli
 
 # Global hooks (recommended — works in every project)
 wakatime-copilot-cli install
