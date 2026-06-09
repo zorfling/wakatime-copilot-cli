@@ -137,6 +137,10 @@ brew install wakatime-cli   # macOS
 **Time tracked under "coding" not "AI Coding"**
 Old heartbeats may have been sent without the category flag. New heartbeats from this plugin will correctly use the "ai coding" category.
 
+## Credits
+
+Inspired by [geeknees/copilot-cli-wakatime](https://github.com/geeknees/copilot-cli-wakatime) — thanks for blazing the trail. This plugin builds on that idea with auto-install, real-file attribution, and the dedicated "AI Coding" category.
+
 ## License
 
 MIT
