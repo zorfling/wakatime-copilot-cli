@@ -1,0 +1,32 @@
+{
+  "name": "wakatime-copilot-cli",
+  "version": "1.0.0",
+  "description": "WakaTime integration for GitHub Copilot CLI — proper AI coding attribution, no virtual files, auto-installs wakatime-cli",
+  "type": "module",
+  "bin": {
+    "wakatime-copilot-cli": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "test": "node --test --import tsx test/**/*.test.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "wakatime",
+    "github-copilot",
+    "copilot-cli",
+    "time-tracking",
+    "ai-coding"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.19.42",
+    "tsx": "^4.22.4",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
