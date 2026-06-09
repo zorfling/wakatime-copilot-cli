@@ -7,7 +7,7 @@
   "description": "WakaTime integration for GitHub Copilot CLI — proper AI coding attribution, no virtual files, auto-installs wakatime-cli",
   "type": "module",
   "bin": {
-    "wakatime-copilot-cli": "./dist/cli.js"
+    "wakatime-copilot-cli": "dist/cli.js"
   },
   "scripts": {
     "build": "tsc",
