@@ -4,7 +4,7 @@ WakaTime integration for [GitHub Copilot CLI](https://docs.github.com/en/copilot
 
 ## Why this over the existing one?
 
-| | This plugin | geeknees/copilot-cli-wakatime |
+| | This plugin | [geeknees/copilot-cli-wakatime](https://github.com/geeknees/copilot-cli-wakatime) |
 |---|---|---|
 | AI coding category | ✅ `--category "ai coding"` | ❌ defaults to "coding" |
 | Virtual files | ✅ None — tracks real files | ❌ Creates `.copilot-cli.ts` in your repo |
